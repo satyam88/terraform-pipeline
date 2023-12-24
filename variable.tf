@@ -14,6 +14,10 @@ variable "bucket_name" {
   type = string
 }
 
-variable "cidr_range" {
+variable "cidr_range01" {
+  type = string
+}
+
+variable "cidr_range02" {
   type = string
 }

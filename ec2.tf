@@ -13,6 +13,10 @@ resource "aws_s3_bucket" "mybucket" {
   bucket = var.bucket_name
 }
 
-resource "aws_vpc" "myvpc" {
-  cidr_block = var.cidr_range
+resource "aws_vpc" "myvpc01" {
+  cidr_block = var.cidr_range01
+}
+
+resource "aws_vpc" "myvpc02" {
+  cidr_block = var.cidr_range02
 }
